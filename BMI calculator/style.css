@@ -2,7 +2,7 @@
    width: 575px;
    height: 825px;
    margin: auto;
-   background-color: #797978;
+   background-color: #f9cea8;
    padding-left: 30px;
 }
 
@@ -44,4 +44,7 @@ h1 {
    padding-left: 15px;
    padding-top: 25px;
 
+}
+span{
+   background-color: #212121;
 }
