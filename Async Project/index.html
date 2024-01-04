@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Document</title>
+</head>
+<body>
+   <h1>Hare Krishna</h1>
+   <button id="ns">Never Stop</button>
+
+   <script>
+      const sayHareKrishna = function () {
+            console.log("Hare Krishna");
+         }
+
+         const changeText = function(){
+            document.querySelector('h1').innerHTML = "Best Medicine "
+         }
+     const changeMe =  setTimeout(changeText, 1000)
+
+      document.querySelector('#ns').addEventListener('click', function(){
+          clearTimeout(changeMe)
+          console.log('will never stop');
+      })
+
+   </script>
+</body>
+</html>
